@@ -1,0 +1,96 @@
+.dashboard { display: flex; flex-direction: column; gap: 16px; }
+
+.synthetic-banner {
+  background: #FEF3C7;
+  border: 1px solid #F59E0B;
+  color: #78350F;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.system-tiles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.system-tile { text-align: center; }
+
+.tile-system {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.tile-total {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.tile-label { font-size: 11px; color: var(--text-muted); margin-bottom: 4px; }
+
+.change-up { color: var(--green); font-weight: 600; font-size: 13px; }
+.change-down { color: var(--red); font-weight: 600; font-size: 13px; }
+
+.tile-adherence { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
+
+.dq-panel {
+  background: #FEF3C7;
+  border: 1px solid #F59E0B;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 12px;
+  color: #78350F;
+}
+
+.dq-panel summary { cursor: pointer; font-weight: 600; }
+.dq-panel ul { margin-top: 8px; padding-left: 16px; }
+.dq-panel li { margin-bottom: 4px; }
+
+.section-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--navy);
+  border-bottom: 2px solid var(--navy);
+  padding-bottom: 6px;
+}
+
+.no-exceptions { color: var(--green); font-style: italic; padding: 12px 0; }
+
+.exception-list { display: flex; flex-direction: column; gap: 12px; }
+
+.exception-card {
+  border-left: 4px solid var(--border);
+}
+.exception-card.severity-HIGH { border-left-color: var(--red); }
+.exception-card.severity-MEDIUM { border-left-color: var(--amber); }
+.exception-card.severity-LOW { border-left-color: #94A3B8; }
+
+.ex-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 6px;
+}
+
+.ex-name { font-weight: 700; font-size: 14px; }
+.ex-system { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+
+.ex-right { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
+
+.ex-change { font-size: 22px; font-weight: 700; color: var(--red); }
+
+.ex-counts { font-size: 12px; color: var(--text-muted); margin-bottom: 8px; }
+
+.ex-evidence { display: flex; flex-direction: column; gap: 3px; }
+
+.evidence-line { font-size: 12px; line-height: 1.5; }
+.evidence-badge { font-weight: 700; font-size: 11px; }

@@ -1,0 +1,5 @@
+# SYNTHETIC DEMO DATA — NOT OFFICIAL STATISTICS
+date,system,entity_id,incident_type,severity,start_time,end_time,description
+2025-06-15,METRO,M04,GATE_FAULT,HIGH,07:30,10:15,Gate 3 malfunction — reduced throughput during morning peak; maintenance dispatched at 08:00
+2025-06-15,BRTS,B08,VEHICLE_BREAKDOWN,MEDIUM,06:45,09:30,Bus VH-B08-12 broke down at depot exit; 8 replacement trips not operated
+2025-06-15,METRO,M11,SIGNAL_FAULT,LOW,11:20,12:05,Platform signal intermittent; no service disruption; rectified by 12:05

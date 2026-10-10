@@ -1,0 +1,14 @@
+# SYNTHETIC DEMO DATA — NOT OFFICIAL STATISTICS
+date,station_id,station_name,entry_count,exit_count,gate_operational,notes
+2025-06-14,M01,Vastral Gam Metro,6410,6290,true,
+2025-06-14,M02,Nirant Cross Roads Metro,5920,5830,true,
+2025-06-14,M03,Rabari Colony Metro,7080,7010,true,
+2025-06-14,M04,Vastral Metro,5580,5620,true,
+2025-06-14,M05,Amraiwadi Metro,8840,8700,true,
+2025-06-14,M06,Apparel Park Metro,3240,3210,true,
+2025-06-14,M07,APMC Metro,4620,4540,true,
+2025-06-14,M08,Gyaspur Metro,5310,5220,true,
+2025-06-14,M09,Jivraj Park Metro,5100,4980,true,
+2025-06-14,M10,Shreyas Metro,6830,6710,true,
+2025-06-14,M11,Bhuyangdev Metro,5560,5440,true,
+2025-06-14,M12,Thaltej Gam Metro,4150,4090,true,

@@ -1,0 +1,14 @@
+# SYNTHETIC DEMO DATA — NOT OFFICIAL STATISTICS
+date,station_id,station_name,entry_count,exit_count,gate_operational,notes
+2025-06-15,M01,Vastral Gam Metro,6320,6180,true,
+2025-06-15,M02,Nirant Cross Roads Metro,5840,5760,true,
+2025-06-15,M03,Rabari Colony Metro,7120,7050,true,
+2025-06-15,M04,Vastral Metro,4250,4550,false,Gate 3 malfunction reported at 07:30
+2025-06-15,M05,Amraiwadi Metro,8900,8780,true,
+2025-06-15,M06,Apparel Park Metro,3210,3180,true,
+2025-06-15,M07,APMC Metro,4560,4490,true,
+2025-06-15,M08,Gyaspur Metro,5230,5150,true,
+2025-06-15,M09,Jivraj Park Metro,N/A,4820,true,Entry count sensor offline
+2025-06-15,M10,Shreyas Metro,6780,6640,true,
+2025-06-15,M11,Bhuyangdev Metro,5490,5380,true,
+2025-06-15,M12,Thaltej Gam Metro,4120,4060,true,

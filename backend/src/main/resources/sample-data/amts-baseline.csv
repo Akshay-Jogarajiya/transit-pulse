@@ -1,0 +1,8 @@
+# SYNTHETIC DEMO DATA — NOT OFFICIAL STATISTICS
+date,depot_id,depot_name,route_id,route_name,passengers,buses_operated
+2025-06-14,D01,Naroda Depot,A01,Naroda–Dani Limda,3820,22
+2025-06-14,D01,Naroda Depot,A02,Naroda–CTM,4090,24
+2025-06-14,D02,Vinzol Depot,A10,Vinzol–Isanpur,2810,16
+2025-06-14,D03,Maninagar Depot,A15,Maninagar–Satellite,3400,20
+2025-06-14,D03,Maninagar Depot,A16,Maninagar–Naranpura,3280,20
+2025-06-14,D04,Kubernagar Depot,A22,Kubernagar–Sola,2480,14

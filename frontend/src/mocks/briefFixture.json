@@ -1,0 +1,57 @@
+{
+  "reportDate": "2025-06-15",
+  "generatedAt": "2025-06-15T08:12:34",
+  "networkSummary": {
+    "totalToday": 178420,
+    "totalYesterday": 191050,
+    "pctChange": -6.61
+  },
+  "systemSummaries": [
+    { "system": "METRO", "totalToday": 102700, "totalYesterday": 115580, "pctChange": -11.14, "scheduleAdherence": null },
+    { "system": "BRTS", "totalToday": 58950, "totalYesterday": 60960, "pctChange": -3.30, "scheduleAdherence": 94.2 },
+    { "system": "AMTS", "totalToday": 19310, "totalYesterday": 20480, "pctChange": -5.71, "scheduleAdherence": null }
+  ],
+  "exceptions": [
+    {
+      "entityId": "M04", "entityName": "Vastral Metro", "system": "METRO",
+      "metric": "ridership", "valueToday": 8800, "valueBaseline": 11200,
+      "pctChange": -21.43, "severity": "HIGH",
+      "evidence": [
+        { "type": "FACT", "description": "Ridership today: 8,800 vs baseline: 11,200 (-21.4%)" },
+        { "type": "INCIDENT", "description": "GATE FAULT: Gate 3 malfunction — reduced throughput during morning peak [07:30–10:15]" },
+        { "type": "POSSIBLE_CAUSE", "description": "gate fault co-occurred with ridership decline at this station" },
+        { "type": "CORRELATION", "description": "Heavy rainfall recorded (22.0 mm)" }
+      ]
+    },
+    {
+      "entityId": "B07", "entityName": "Bhat–Shivranjani", "system": "BRTS",
+      "metric": "ridership", "valueToday": 6100, "valueBaseline": 7200,
+      "pctChange": -15.28, "severity": "HIGH",
+      "evidence": [
+        { "type": "FACT", "description": "Ridership today: 6,100 vs baseline: 7,200 (-15.3%)" },
+        { "type": "CORRELATION", "description": "Heavy rainfall recorded (22.0 mm)" },
+        { "type": "UNCONFIRMED", "description": "No incident evidence found for this anomaly." }
+      ]
+    },
+    {
+      "entityId": "D03:A15", "entityName": "Maninagar–Satellite (Maninagar Depot)", "system": "AMTS",
+      "metric": "ridership", "valueToday": 2900, "valueBaseline": 3400,
+      "pctChange": -14.71, "severity": "MEDIUM",
+      "evidence": [
+        { "type": "FACT", "description": "Ridership today: 2,900 vs baseline: 3,400 (-14.7%)" },
+        { "type": "UNCONFIRMED", "description": "No incident or weather evidence found for this anomaly." }
+      ]
+    }
+  ],
+  "recommendedActions": [
+    "Urgently verify operational status and investigate incident logs at Vastral Metro.",
+    "Review ridership and service data for Bhat–Shivranjani; check for unreported disruptions.",
+    "Monitor Maninagar–Satellite (Maninagar Depot) over the next 24 hours for further anomalies."
+  ],
+  "narrative": "On 15 June 2025, total network ridership was 178,420 — a decline of 6.6% against the prior-day baseline of 191,050. Metro ridership fell most sharply at 11.1%, driven primarily by the Vastral station, where a gate fault during morning peak hours coincided with heavy rainfall of 22 mm. The Bhat–Shivranjani BRTS route recorded a 15.3% ridership decline; no incident was logged, though rainfall may have been a contributing factor. The Maninagar–Satellite AMTS route declined 14.7% with no supporting evidence. Investigation of Vastral gate restoration and passenger communication is the immediate priority.",
+  "narrativeSource": "FALLBACK",
+  "dataQualityWarnings": [
+    "1 row excluded from Metro data due to invalid entry_count value (row 10: M09)."
+  ],
+  "isSyntheticData": true
+}

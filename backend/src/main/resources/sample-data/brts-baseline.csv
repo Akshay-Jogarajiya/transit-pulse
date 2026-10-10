@@ -1,0 +1,10 @@
+# SYNTHETIC DEMO DATA — NOT OFFICIAL STATISTICS
+date,route_id,route_name,passengers,trips_operated,trips_scheduled,notes
+2025-06-14,B01,Naroda–Lal Darwaja,8820,45,45,
+2025-06-14,B02,Gota–Nehru Nagar,7290,38,38,
+2025-06-14,B03,Vatva–Maninagar,5870,33,33,
+2025-06-14,B04,Chandkheda–Ellis Bridge,9080,48,48,
+2025-06-14,B05,Bapunagar–Sarkhej,6530,36,36,
+2025-06-14,B06,Nikol–Paldi,7760,42,42,
+2025-06-14,B07,Bhat–Shivranjani,7200,36,36,
+2025-06-14,B08,Vastral–Gyaspur,5380,45,45,
